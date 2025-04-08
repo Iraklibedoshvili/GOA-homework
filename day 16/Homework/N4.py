@@ -1,3 +1,4 @@
-number=0
-while number<20:
-    number+1
+number = 0
+while number <= 20:
+    print(number)
+    number += 1

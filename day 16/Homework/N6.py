@@ -1,5 +1,4 @@
-number=10
-
-while number <= 30:
+number = 15
+while number <= 80:
     print(number)
     number += 1
