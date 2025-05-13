@@ -13,9 +13,9 @@ for i in range(len(full_name)):
         count = 0  
 
        
-        for b in range(i + 1, len(full_name)):
-            if full_name[b].isupper():
-                result += full_name[b].lower()
+        for j in range(i + 1, len(full_name)):
+            if full_name[j].isupper():
+                result += full_name[j].lower()
                 count += 1
 
             if count == 3:  
